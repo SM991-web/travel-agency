@@ -3,6 +3,7 @@
 
 
 📦 Tech Stack
+---------------
 ⚛️ React.js (Vite)
 
 🔥 Firebase (Auth + Firestore)
@@ -22,6 +23,7 @@
 
 
 🚀 Features
+-------------
 🔐 Authentication (Login/Signup)
 
 🧳 Trip Booking with Firestore
@@ -42,8 +44,11 @@
 bash
 
 git clone https://github.com/SM991-web/travel-agency.git
+--
 cd travel-agency
+-
 npm install
+-
 npm run dev
 
 ------------------------------------
