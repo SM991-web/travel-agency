@@ -1,5 +1,5 @@
 ## 🌐 Live Demo
-[Click here to visit](https://SM991-web.github.io/travel-agency/#/)
+[Click here to visit](https://SM991-web.github.io/travel-agency/)
 
 
 
