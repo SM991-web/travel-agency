@@ -10,13 +10,15 @@ import Auth from './pages/Auth';
 import PrivateRoute from './components/PrivateRoute';
 import Dashboard from './pages/Dashboard'; 
 import BookNow from './pages/BookNow';
+import Landing from './pages/Landing';
 
 function App() {
   return (
     <>
       <NavigationBar /> {/* ✅ Use the correct component name */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Landing />} /> {/* ✅ Landing on root */}
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/auth" element={<Auth />} />
