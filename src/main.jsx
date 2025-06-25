@@ -4,11 +4,12 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AuthProvider } from './contexts/AuthContext';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <AuthProvider>  
+   <HashRouter basename="/travel-agency">
+    <AuthProvider>
       <App />
     </AuthProvider>
-  </BrowserRouter>
+  </HashRouter>
 );
